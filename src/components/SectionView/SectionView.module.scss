@@ -1,0 +1,178 @@
+.container {
+    width: 90%;
+    margin: auto;
+    column-count: 4;
+    margin-top: 120px;
+
+}
+
+.container img {
+    display: inline-block;
+    width: 270px;
+    height: auto;
+    margin: 10px;
+
+}
+
+
+.btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 14px;
+    background-color: #fff;
+    color: #777;
+    border: 1px solid #777;
+    outline: none;
+    margin-top: -70px;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.btn:hover {
+    border: 1px solid #000;
+    color: #000;
+
+}
+
+.popular {
+    right: 70px;
+}
+
+.latest {
+    right: 320px;
+}
+
+.item {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #F0EDE5;
+    color: #333;
+    z-index: 1;
+    bottom: 30px;
+    right: 5%;
+    font-size: 12px;
+    line-height: 7px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+img:hover~.info {
+    opacity: 0.83;
+}
+
+@media (max-width: 1050px) {
+    .container {
+        column-count: 3;
+    }
+
+}
+
+@media (max-width: 1039px) {
+    .info {
+        right: 25px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .container {
+        column-count: 3;
+    }
+
+    .container img {
+        width: 250px;
+    }
+
+    .info {
+        right: 20px;
+    }
+
+}
+
+@media (max-width: 861px) {
+    .container {
+        width: 80%;
+        column-count: 2;
+        text-align: center;
+    }
+
+    .container img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 769px) {
+    .container img {
+        width: 270px;
+    }
+}
+
+@media (max-width: 692px) {
+    .container {
+        column-count: 1;
+    }
+
+    .container img {
+        width: 350px;
+    }
+
+    .info {
+        right: 18%;
+    }
+
+    .btn {
+        width: 140px;
+        margin-bottom: 75px;
+    }
+
+    .latest {
+        right: 220px;
+    }
+}
+
+@media (max-width: 540px) {
+    .info {
+        right: 9%;
+    }
+}
+
+@media (max-width: 460px) {
+    .container img {
+        width: 260px;
+    }
+
+    .btn {
+        padding: 8px 10px;
+        font-size: 12px;
+        width: 130px;
+    }
+
+    .latest {
+        right: 200px;
+    }
+
+    .popular {
+        right: 50px;
+    }
+}
+
+@media (max-width: 396px) {
+    .latest {
+        right: 180px;
+    }
+
+    .popular {
+        right: 40px;
+    }
+}

@@ -1,0 +1,44 @@
+.item_foto {
+    width: 55%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_foto img {
+    width: 100%;
+}
+
+.item_info {
+    width: 55%;
+    margin: 40px auto;
+
+}
+
+.item_info h3 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.item_info p {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+@media (max-width: 950px) {
+
+    .item_foto,
+    .item_info {
+        width: 69%;
+    }
+}
+
+@media (max-width: 648px) {
+
+    .item_foto,
+    .item_info {
+        width: 82%;
+    }
+}
