@@ -19,8 +19,8 @@
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    background-color: rgb(223, 228, 237);
-    box-shadow: 20px 20px 40px -10px hsla(0, 0%, 0%, 0.15);
+    background-color: rgb(218, 227, 245);
+    box-shadow: 20px 20px 40px -10px hsla(0, 0%, 0%, 0.09);
     box-sizing: border-box;
     margin: 22px;
     padding: 0 8px;
@@ -29,7 +29,7 @@
     justify-content: center;
     text-align: center;
     border-radius: 8px;
-    transition: 0.56s;
+    transition: 0.36s;
     animation: anim 0.5 ease-in-out;
 }
 
@@ -52,8 +52,8 @@
 }
 
 .div_item:hover {
-    box-shadow: 29px 29px 49px -10px hsla(0, 0%, 0%, 0.23);
-
+    // box-shadow: 29px 29px 29px -10px hsla(0, 0%, 0%, 0.15);
+    background-color: rgb(202, 214, 236);
 }
 
 @media (max-width: 597px) {
